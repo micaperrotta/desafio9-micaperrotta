@@ -1,10 +1,192 @@
-.col{
-font-family: Georgia, 'Times New Roman', Times, serif;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height:200px;
-    margin:5px;
+body {
+    
+background-image: url(https://i.pinimg.com/564x/08/98/bf/0898bf2ffd28ff3d8ac042051c3469ef.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: 1800px;
 
+sedan sc regular {
+font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+}
+h1{
+    text-align: center;
+color:rgb(12, 12, 31);
+letter-spacing: 8px;
+font-size: 70px;
+font-family:"Sedan SC",serif;
+}
+h2 {color:rgb(75, 28, 20);
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align:center;
+}
+h3{
+    text-align: center;
+    color: rgb(88, 63, 8);
+    font-size: medium;
+    letter-spacing: -1px;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.navbar-logo img{
+    height:80px;
+    width:130px;
+}
+
+.boton1{
+    text-align: center;
+    display: block;
+background-color: black;
+color: white;
+text-decoration:none;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+padding: 12px 30px;
+border-radius:20px;
+margin-bottom:20px;
+}
+.boton2{
+    text-align: center;
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius:20px;
+margin-bottom:20px;
+}
+
+.boton3{
+    text-align: center;
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius:20px;
+    margin-bottom:20px;}
+.lista{
+    list-style-type:none;
+    padding-left: 0;
+}
+
+.boton1:hover{
+    background-color: gray;
+    
+}
+.boton2:hover{
+    background-color: gray;
+}
+.boton3:hover{
+    background-color: gray;
+}
+
+p{
+    text-align: justify;
+font-style:normal
+
+}
+h4{
+   text-align: center;
+    font-style: oblique;
+    font-size:  20px;
+}
+.practicando{
+    color:rgb(134, 79, 17)
+    
+}
+.practicando-Dos {
+    color:rgb(134, 79, 17)
+    
+}
+
+.practicando-Tres {
+    
+    color:rgb(134, 79, 17)
+}
+.contenedor{
+    
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.caja{
+    width: 30px;
+    height: 10px;
+    margin: 20px;
+}
+
+.uno{
+    background-color:#28203b;
+}
+
+.dos{
+    background-color:#28203b;
+}
+
+.tres{
+    background-color:#28203b;
+}
+
+@media(max-width:768px){
+.contenedor{
+    display: block;
+    max-width: 300px;
+}
+.caja{
+        margin: auto;
+        margin-top:20px;
+    }
+}
+
+.carousel-item img{
+
+    width:25%;
+
+  display:flex;
+
+    justify-content: center;       
+    align-items: center;          
+  margin-top: 100px;
+  margin-bottom: 100px;
+    margin-left: 485px
+}
+
+
+.foto{
+max-width: 100%;
+height: auto;
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item h5{ 
+color:rgb(35, 33, 37);
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-bottom: 30px
+}
+
+    
+    .carousel-item p{ 
+        color:rgb(35, 33, 37);
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 25px
+        }
